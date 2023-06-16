@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
+  </head>
+  <body>
+    <a-scene mindar-image="imageTargetSrc: ../map-targets/jay-map-targets.mind;"  color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="248" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="671" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 2">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="085" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 3">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="952" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 4">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="763" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="114" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="043" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 2">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="366" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 3">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="784" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 4">
+        <a-plane color="#FFF" height="1" width="1"></a-plane>
+        <a-text value="490" position="-0.2 0 0" width="5" color="black">
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
